@@ -1,0 +1,134 @@
+/* PRELOADER IMAGE BACKGROUND */
+.status {
+	background-image: url("../../images/loader-blue.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+/* THE OVERLAY COLORS WHICH WILL SHOW IN FRONT OF BACKGROUND IMAGES*/
+.overlay-layer {
+	background: rgba(0, 5, 8, 0.30);
+}
+.header {
+    background: url("../../images/advisor.jpg") no-repeat center top fixed;
+    padding-top: 60px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.overlay-layer-2 {
+	background: #46166b;
+}
+
+/* NAVBAR AND LINK COLORS */
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus, {
+  color: #46166b;
+}
+
+a {
+	color: #46166b;
+}
+
+a:hover {
+	color: #46166b;
+}
+
+.border-bottom-hover:hover {
+	border-bottom-color: #46166b;
+}
+
+.white-button:hover
+{
+	color: #60b2ee !important;
+}
+
+.sticky-navigation li {
+	color: #46166b;
+}
+.sticky-navigation .main-navigation li a:hover,
+.sticky-navigation .login-register li.login a:hover {
+	color: white;
+}
+
+.sticky-navigation {
+	color: #46166b;
+}
+
+/*.sticky-navigation .main-navigation li.current a {
+	color: #46166b;
+}*/
+
+/* INPUT FIXES */
+.input-box:active,
+.textarea-box:active,
+.input-box:focus,
+.textarea-box:focus {
+	border-color: #60b2ee;
+}
+
+/* CLIENT PHOTO */
+.feedback .pic-container {
+	-webkit-box-shadow: 0px 0px 0px 1px #60b2ee;
+	box-shadow: 0px 0px 0px 1px #60b2ee;
+}
+
+/* BUTTONS*/
+.standard-button,
+.navbar-register-button {
+	background: #46166b;
+	-webkit-box-shadow: 0px -2px 0px 0px none;
+	box-shadow: 0px -2px 0px 0px none;
+}
+
+.standard-button:hover,
+.navbar-register-button:hover {
+	color: #ffffff;
+	background: #529dd4 !important;
+	text-decoration: none;
+}
+
+.standard-button:focus,
+.navbar-register-button:focus {
+	color: #ffffff;
+}
+
+.standard-button:active,
+.navbar-register-button:active {
+	background: #529dd4 !important;
+	border-color: inherit !important;
+	box-shadow: none;
+}
+
+/* COLORED BACKGROUND AND TEXT*/
+.color-bg {
+	background: #60b2ee;
+}
+
+.colored-text {
+	color: #60b2ee;
+}
+
+/* COLORED BORDERS AND LINES */
+.colored-line-left,
+.colored-line-right,
+.colored-line {
+	background: #60b2ee;
+}
+
+.border-right-colored {
+	border-right: 1px solid rgba(0, 142, 214, 0.3);
+}
+
+.border-left-colored {
+	border-left: 1px solid rgba(0, 142, 214, 0.3);
+}
+
+.long-transparent-line {
+	height: 1px;
+	width: 200px;
+	background: rgba(0, 142, 214, 0.3);
+	margin: auto;
+}
