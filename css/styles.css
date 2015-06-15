@@ -371,10 +371,10 @@ strong,
   padding: 10px 45px 10px 45px;
   -webkit-transition: none;
   transition: none;
-    background: #60b2ee !important;
+    background: #AFA87A !important;
     color: #fff;
-   	-webkit-box-shadow: 0px -2px 0px 0px #67c1ff;
-	box-shadow: 0px -2px 0px 0px #67c1ff;
+   	-webkit-box-shadow: 0px -2px 0px 0px none;
+	box-shadow: 0px -2px 0px 0px none;
 }
 .blue-button:hover {
     background: #529dd4 !important;
